@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\addattendee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:addattendee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\database\\readerwriter\\getsqlitequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:database\\readerwriter\\getsqlitequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\database\\readerwriter\\setsqlitequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:database\\readerwriter\\setsqlitequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\person\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:person\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\timemanagermain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:timemanagermain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\database\\connections\\sqliteconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:database\\connections\\sqliteconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\person\\loginlogout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:person\\loginlogout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\timemanagermain.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:timemanagermain.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\cominggoing.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:cominggoing.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|h:\\eigene projekte\\zeiterfassung_14_02_24_build\\zeiterfassung_anleiter_wpf\\timemanagermain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FC1B7F7C-2537-4EAC-B7D7-CC572D4C41B4}|Zeiterfassung_Anleiter_WPF.csproj|solutionrelative:timemanagermain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "addAttendee.xaml.cs",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\addAttendee.xaml.cs",
+              "RelativeDocumentMoniker": "addAttendee.xaml.cs",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\addAttendee.xaml.cs",
+              "RelativeToolTip": "addAttendee.xaml.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowEgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T17:31:58.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SetSqliteQuery.cs",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Database\\ReaderWriter\\SetSqliteQuery.cs",
+              "RelativeDocumentMoniker": "Database\\ReaderWriter\\SetSqliteQuery.cs",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Database\\ReaderWriter\\SetSqliteQuery.cs",
+              "RelativeToolTip": "Database\\ReaderWriter\\SetSqliteQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T17:49:50.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqliteConnect.cs",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Database\\Connections\\SqliteConnect.cs",
+              "RelativeDocumentMoniker": "Database\\Connections\\SqliteConnect.cs",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Database\\Connections\\SqliteConnect.cs",
+              "RelativeToolTip": "Database\\Connections\\SqliteConnect.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T14:44:22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-02-22T14:43:59.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Attendee.cs",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Person\\Attendee.cs",
+              "RelativeDocumentMoniker": "Person\\Attendee.cs",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Person\\Attendee.cs",
+              "RelativeToolTip": "Person\\Attendee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T14:30:55.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TimeManagerMain.xaml.cs",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\TimeManagerMain.xaml.cs",
+              "RelativeDocumentMoniker": "TimeManagerMain.xaml.cs",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\TimeManagerMain.xaml.cs",
+              "RelativeToolTip": "TimeManagerMain.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAewB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-17T08:46:16.019Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "91002484-705c-4d51-ab03-f9a1c7369b03",
+        "Display": 2,
+        "X": 750,
+        "Y": 138,
+        "Width": 1553,
+        "Height": 794,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginLogout.cs",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Person\\LoginLogout.cs",
+              "RelativeDocumentMoniker": "Person\\LoginLogout.cs",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Person\\LoginLogout.cs",
+              "RelativeToolTip": "Person\\LoginLogout.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T15:41:32.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetSqliteQuery.cs",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Database\\ReaderWriter\\GetSqliteQuery.cs",
+              "RelativeDocumentMoniker": "Database\\ReaderWriter\\GetSqliteQuery.cs",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Database\\ReaderWriter\\GetSqliteQuery.cs",
+              "RelativeToolTip": "Database\\ReaderWriter\\GetSqliteQuery.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAMwHwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T17:17:50.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComingGoing.xaml",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\ComingGoing.xaml",
+              "RelativeDocumentMoniker": "ComingGoing.xaml",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\ComingGoing.xaml",
+              "RelativeToolTip": "ComingGoing.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-17T08:46:20.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "37a43a3c-492a-49b3-87b5-50eaa8a1d8b4",
+        "Display": 1,
+        "X": 194,
+        "Y": 174,
+        "Width": 1553,
+        "Height": 794,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TimeManagerMain.xaml",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\TimeManagerMain.xaml",
+              "RelativeDocumentMoniker": "TimeManagerMain.xaml",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\TimeManagerMain.xaml",
+              "RelativeToolTip": "TimeManagerMain.xaml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-17T08:46:03.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TimeManagerMain.xaml",
+              "DocumentMoniker": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\TimeManagerMain.xaml",
+              "RelativeDocumentMoniker": "TimeManagerMain.xaml",
+              "ToolTip": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\TimeManagerMain.xaml",
+              "RelativeToolTip": "TimeManagerMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-17T08:45:53.03Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

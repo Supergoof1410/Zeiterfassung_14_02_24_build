@@ -1,0 +1,165 @@
+﻿<Window x:Name="monthSummary"
+        x:Class="Zeiterfassung_WPF.Monatsuebersicht"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zeiterfassung_WPF"
+        mc:Ignorable="d"
+        Title="Monatsübersicht"
+        Height="Auto"
+        Width="Auto"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Normal"
+        Icon="/icons8-schedule-100.png"
+        ResizeMode="CanResize">
+    <Window.Resources>
+        <ResourceDictionary Source="Resources/calendarResource.xaml" />
+    </Window.Resources>
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom"
+                   HorizontalContentAlignment="Left"
+                   VerticalContentAlignment="Center"
+                   Height="Auto"
+                   Width="Auto">
+            <Label x:Name="status"
+                   Content="Status: " />
+        </StatusBar>
+        <Grid DockPanel.Dock="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid ShowGridLines="True"
+                  Grid.Row="0"
+                  Height="Auto"
+                  Width="Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0"
+                      Background="GreenYellow"
+                      HorizontalAlignment="Center"
+                      VerticalAlignment="Top"
+                      ShowGridLines="False">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Label x:Name="actualMonth"
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"
+                           Grid.Column="1"
+                           Grid.Row="0"
+                           Width="Auto"
+                           Content="{Binding MonthName}"
+                           FontSize="22" />
+                    <Label x:Name="summary"
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"
+                           Grid.Column="1"
+                           Grid.Row="1"
+                           Width="Auto"
+                           Background="White"
+                           Content="Gesamt (Monat)"
+                           FontSize="22" />
+                    <Label x:Name="SummaryHourMonth"
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"
+                           Grid.Column="1"
+                           Grid.Row="2"
+                           Width="Auto"
+                           Content="{Binding SummaryMonth}"
+                           FontSize="22" />
+                </Grid>
+                <Grid Grid.Column="1"
+                      HorizontalAlignment="Left"
+                      VerticalAlignment="Top">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                  HorizontalScrollBarVisibility="Auto"
+                                  ScrollViewer.CanContentScroll="True"
+                                  Grid.Column="1">
+                        <!--The calendar-->
+                        <Grid x:Name="calendar"
+                              ShowGridLines="False">
+                            <ItemsControl Name="icCalendar">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <UniformGrid x:Name="CalendarGrid"
+                                                     Columns="7"
+                                                     FirstColumn="{Binding Path=ColumnCal}" />
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border BorderBrush="Black"
+                                                BorderThickness="0">
+                                            <Grid x:Name="days"
+                                                  ShowGridLines="False">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="150" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="30" />
+                                                    <RowDefinition Height="30" />
+                                                    <RowDefinition Height="30" />
+                                                </Grid.RowDefinitions>
+                                                <TextBlock x:Name="Day"
+                                                           Grid.Row="0"
+                                                           TextAlignment="Center"
+                                                           TextWrapping="Wrap"
+                                                           Background="Black">
+                                                    <Label Content="{Binding DayName}"
+                                                           FontSize="16"
+                                                           VerticalContentAlignment="Center"
+                                                           HorizontalContentAlignment="Center"
+                                                           Foreground="{Binding Background}" /></TextBlock>
+                                                <Grid Grid.Row="1">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="75" />
+                                                        <ColumnDefinition Width="75" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock x:Name="Coming"
+                                                               Grid.Column="0"
+                                                               TextAlignment="Center"
+                                                               TextWrapping="Wrap"
+                                                               Background="{Binding Background}">
+                                                         <Label Content="{Binding TextComing}"
+                                                                FontSize="16"
+                                                                VerticalContentAlignment="Center"
+                                                                HorizontalContentAlignment="Center"
+                                                                Foreground="Black" /></TextBlock>
+                                                    <TextBlock x:Name="Going"
+                                                               Grid.Column="1"
+                                                               TextAlignment="Center"
+                                                               TextWrapping="Wrap"
+                                                               Background="{Binding Background}">
+                                                    <Label Content="{Binding TextGoing}"
+                                                           FontSize="16"
+                                                           VerticalContentAlignment="Center"
+                                                           HorizontalContentAlignment="Center"
+                                                           Foreground="Black" /></TextBlock>
+                                                </Grid>
+                                                <TextBlock x:Name="DiffTime"
+                                                           Grid.Row="3"
+                                                           TextAlignment="Center"
+                                                           TextWrapping="Wrap"
+                                                           Background="{Binding Background}">
+                                                    <Label Content="{Binding TextSummary}"
+                                                           FontSize="16"
+                                                           VerticalContentAlignment="Center"
+                                                           HorizontalContentAlignment="Center"
+                                                           Foreground="Black" /></TextBlock>
+                                            </Grid>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

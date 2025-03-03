@@ -1,0 +1,124 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Microsoft.Data.Sqlite.Core/8.0.2": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "8.0.2.0",
+            "fileVersion": "8.0.224.6803"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {},
+      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {},
+      "SQLitePCLRaw.bundle_e_sqlcipher/2.1.8": {
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlcipher": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlcipher": "2.1.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.1.8.2226",
+            "fileVersion": "2.1.8.2226"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/2.1.8": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.1.8.2226",
+            "fileVersion": "2.1.8.2226"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlcipher/2.1.8": {
+        "native": {
+          "runtimes/win-x64/native/e_sqlcipher.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlcipher/2.1.8": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.8"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlcipher.dll": {
+            "assemblyVersion": "2.1.8.2226",
+            "fileVersion": "2.1.8.2226"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {}
+    }
+  },
+  "libraries": {
+    "Microsoft.Data.Sqlite.Core/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C7VelOBNUrVlatmOoJ9P+vc/gegduv7d2uB5oy7bFxfgZBfaGr+eREW+QuppXwi3MHp0WBxxWjqkK5gD7ymDQA==",
+      "path": "microsoft.data.sqlite.core/8.0.2",
+      "hashPath": "microsoft.data.sqlite.core.8.0.2.nupkg.sha512"
+    },
+    "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0GvbEgDGcUQA9KuWcQU1WwYHXt1tBzNr1Nls/M57rM7NA/AndFwCaCEoJpJkmxRY7xLlPDBnmGp8h5+FNqUngg==",
+      "path": "microsoft.net.illink.analyzers/7.0.100-1.23211.1",
+      "hashPath": "microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512"
+    },
+    "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tvG8XZYLjT0o3WicCyKBZysVWo1jC9HdCFmNRmddx3WbAz0UCsd0qKZqpiEo99VLA8Re+FzWK51OcRldQPbt2Q==",
+      "path": "microsoft.net.illink.tasks/7.0.100-1.23211.1",
+      "hashPath": "microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_e_sqlcipher/2.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1AKZHZfUqiAZXZpSkgXA8VHT1RaCK1Qk+uO8F7crp7JZ8OeisM2yUzv/XgQvezcpSD+Qkt29aqSxfwLbenJpIA==",
+      "path": "sqlitepclraw.bundle_e_sqlcipher/2.1.8",
+      "hashPath": "sqlitepclraw.bundle_e_sqlcipher.2.1.8.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/2.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jre/gajSA2Bz3kzYD8DxMpJehAtxY5/V2UE/OR0v48zY122hJOXBvGumV+/zEMg1l0lEVFJfJCpkJGQp7GBwRw==",
+      "path": "sqlitepclraw.core/2.1.8",
+      "hashPath": "sqlitepclraw.core.2.1.8.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlcipher/2.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aDB+X1h+15fYQmBl7Z/9iMaUtzKUpeM37Cz0rF2PItTiTXKcpt+a778gJ4oyRfW5r5FCKdltYMD91V3AmJfnrQ==",
+      "path": "sqlitepclraw.lib.e_sqlcipher/2.1.8",
+      "hashPath": "sqlitepclraw.lib.e_sqlcipher.2.1.8.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlcipher/2.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OuqmtUA+tlpJP12gEzgnMCV3ATiLJI8+1NMsFjGsqEJStpKWu/bUlG6iYtXgOQ9gHqkjBYwzpZMGrOPFDcTvRg==",
+      "path": "sqlitepclraw.provider.e_sqlcipher/2.1.8",
+      "hashPath": "sqlitepclraw.provider.e_sqlcipher.2.1.8.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    }
+  }
+}

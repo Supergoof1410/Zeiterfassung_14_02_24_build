@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "ebwlJqHU9hf6fA/eEv+Rf8JSsAgBIztNQOFhNX2TrRWi3CrCojVlw0q+zKBLOpwzP53zvR3TZDz/NjsFOFiTig==",
+  "success": true,
+  "projectFilePath": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_Anleiter_WPF\\Zeiterfassung_Anleiter_WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Supergoof\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.2\\microsoft.data.sqlite.core.8.0.2.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlcipher\\2.1.8\\sqlitepclraw.bundle_e_sqlcipher.2.1.8.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\sqlitepclraw.core\\2.1.8\\sqlitepclraw.core.2.1.8.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\sqlitepclraw.lib.e_sqlcipher\\2.1.8\\sqlitepclraw.lib.e_sqlcipher.2.1.8.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\sqlitepclraw.provider.e_sqlcipher\\2.1.8\\sqlitepclraw.provider.e_sqlcipher.2.1.8.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.16\\microsoft.aspnetcore.app.runtime.win-x64.7.0.16.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.16.nupkg.sha512",
+    "C:\\Users\\Supergoof\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.16\\microsoft.netcore.app.runtime.win-x64.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

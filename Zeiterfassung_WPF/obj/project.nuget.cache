@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "PyVi73gDrj8B9RdgBYCCu/AxtOiFe1Vzq2eh2OdnrkO9NtTHZq+90cMprYwC3pAyov7+NEqaOqee5EEkVa/FBA==",
+  "success": true,
+  "projectFilePath": "H:\\Eigene Projekte\\Zeiterfassung_14_02_24_build\\Zeiterfassung_WPF\\Zeiterfassung_WPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.data.sqlite\\8.0.0\\microsoft.data.sqlite.8.0.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlcipher\\2.1.7\\sqlitepclraw.bundle_e_sqlcipher.2.1.7.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.lib.e_sqlcipher\\2.1.7\\sqlitepclraw.lib.e_sqlcipher.2.1.7.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.provider.e_sqlcipher\\2.1.7\\sqlitepclraw.provider.e_sqlcipher.2.1.7.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.17\\microsoft.aspnetcore.app.runtime.win-x64.7.0.17.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.17\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.17.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.17\\microsoft.netcore.app.runtime.win-x64.7.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

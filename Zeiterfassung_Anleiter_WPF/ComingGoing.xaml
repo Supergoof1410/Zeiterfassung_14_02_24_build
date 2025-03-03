@@ -1,0 +1,157 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    x:Name="leckmich"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+   
+    <Style x:Key="Weekend" TargetType="DataGridCell">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.Resources>
+                            <Style TargetType="TextBox">
+                                <Setter Property="Background"
+                                        Value="Black" />
+                                <Setter Property="FontWeight"
+                                        Value="Bold" />
+                                <Setter Property="HorizontalContentAlignment"
+                                        Value="Center" />
+                                <Setter Property="VerticalContentAlignment"
+                                        Value="Center" />
+                            </Style>
+                        </Grid.Resources>
+                        <TextBox Text=""
+                                 IsReadOnly="True" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="datagrid"
+           TargetType="DataGridCell">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="DataGridCell">
+                    <Grid x:Name="testGrid"
+                          DataContext="{Binding LoginLogoutAttendee}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.Resources>
+                            <Style TargetType="TextBox">
+                                <Setter Property="Background"
+                                        Value="LightGreen" />
+                                <Setter Property="HorizontalContentAlignment"
+                                        Value="Center" />
+                                <Setter Property="VerticalContentAlignment"
+                                        Value="Center" />
+                                <Style.Triggers>
+                                    <Trigger Property="Text"
+                                             Value="">
+                                        <Setter Property="Background"
+                                                Value="OrangeRed" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Grid.Resources>
+                        <TextBox Grid.Column="0"
+                                 Text="{Binding Login}"
+                                 BorderThickness="0"></TextBox>
+                        <TextBox Grid.Column="1"
+                                 Text="{Binding Logout}"
+                                 BorderThickness="0"></TextBox>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="DataGridCell">
+        <Setter Property="Height"
+                Value="25" />
+    </Style>
+    <Style TargetType="TextBox">
+        <Setter Property="Height"
+                Value="30" />
+        <Setter Property="HorizontalAlignment"
+                Value="Center" />
+        <Setter Property="VerticalAlignment"
+                Value="Center" />
+    </Style>
+    <!--<DataTemplate x:Key="CellLogging">
+        <Grid DataContext="{Binding LoginLogoutAttendee}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.Resources>
+                <Style TargetType="TextBox">
+                    <Setter Property="Background"
+                            Value="LightGreen" />
+                    <Setter Property="HorizontalContentAlignment"
+                            Value="Center" />
+                    <Setter Property="VerticalContentAlignment"
+                            Value="Center" />
+                    <Style.Triggers>
+                        <Trigger Property="Text"
+                                 Value="">
+                            <Setter Property="Background"
+                                    Value="OrangeRed" />
+                            
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Resources>
+            <TextBox Grid.Column="0"
+                     Text="{Binding Login}"
+                     BorderThickness="0"></TextBox>
+            <TextBox Grid.Column="1"
+                     Text="{Binding Logout}"
+                     BorderThickness="0"></TextBox>
+        </Grid>
+    </DataTemplate>
+    <DataTemplate x:Key="Weekend">
+        <Grid>
+            <Grid.Resources>
+                <Style TargetType="TextBox">
+                    <Setter Property="Background"
+                            Value="Black" />
+                    <Setter Property="FontWeight"
+                            Value="Bold" />
+                    <Setter Property="HorizontalContentAlignment"
+                            Value="Center" />
+                    <Setter Property="VerticalContentAlignment"
+                            Value="Center" />
+                </Style>
+            </Grid.Resources>
+            <TextBox Text="" IsReadOnly="True"/>
+        </Grid>
+    </DataTemplate>-->
+    <Style x:Key="abwesend"
+           TargetType="DataGridCell">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="DataGridCell">
+                    <Grid>
+                        <Grid.Resources>
+                            <Style TargetType="TextBox">
+                                <Setter Property="Background"
+                                        Value="OrangeRed" />
+                                <Setter Property="HorizontalContentAlignment"
+                                        Value="Center" />
+                                <Setter Property="VerticalContentAlignment"
+                                        Value="Center" />
+                            </Style>
+                        </Grid.Resources>
+                        <TextBox Text="abw" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+        <!--<DataTemplate x:Key="abwesend">
+        <Grid>
+            <TextBox Text="abw"
+                     Background="OrangeRed" />
+        </Grid>
+    </DataTemplate>-->
+</ResourceDictionary>
